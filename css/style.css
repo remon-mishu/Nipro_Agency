@@ -1,0 +1,141 @@
+/* font integration */
+@font-face {
+	src: url(../fonts/lato/Lato-Regular.ttf);
+	font-family: Lato-Regular;
+}
+@font-face {
+	src: url(../fonts/lato/Lato-Medium.ttf);
+	font-family: Lato-Medium;
+}
+@font-face {
+	src: url(../fonts/lato/Lato-Bold.ttf);
+	font-family: Lato-Bold;
+}
+@font-face {
+	src: url(../fonts/roboto/Roboto-Regular.ttf);
+	font-family: Roboto-Regular;
+}
+/* Common part starts */
+
+/* Common part ends */
+
+/* --===== Header starts =====-- */
+header{
+	padding: 20px 0 40px;
+}
+header .logo_sec{
+	position: relative;
+}
+header .logo_sec .logo_line{
+	position: absolute;
+	left: 50%;
+	bottom: 84%;
+}
+header .logo_sec .logo_text{
+	font-family: Lato-Medium;
+	font-size: 30px;
+	font-weight: 500;
+	color: #333333;
+	text-transform: uppercase;
+}
+header .menu_sec li{
+	margin: 0 17px;
+}
+header .menu_sec li:last-child{
+	margin-right: 0;
+}
+header .menu_sec a{
+	padding: 0 !important;
+	font-family: Lato-Regular;
+	font-size: 16px;
+	font-weight: 400;
+	color: #8e8e8e;
+	text-transform: uppercase;
+}
+header .custom_btn{
+	margin-left: 37px;
+	color: #8e8e8e;
+	background-color: transparent;
+	border-color: transparent;
+}
+header .custom_btn:focus{
+	box-shadow: none;
+}
+header .custom_btn::after{
+	display: none;
+}
+header .d_menu{
+	top: 77%;
+	background-color: transparent;
+	border-color: transparent;
+}
+header .d_menu[data-bs-popper] {
+    left: -243px;
+    width: 300px;
+}
+.form_input:focus {
+	box-shadow: none;
+}
+/* --===== Header ends =====-- */
+
+/* --===== Banner starts =====-- */
+.banner {
+	background-image: url(../images/banner.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100vh;
+}
+.banner .car_inner {
+	margin: 10% 0 0;
+}
+.banner .car_item {
+	height: 545px;
+}
+.banner .slider {
+	padding: 13% 13% 13% 0;
+	color: #fff;
+}
+.slider h1 {
+	font-family: Lato-Bold;
+	font-size: 60px;
+	font-weight: 700;
+	color: #fff;
+	text-transform: capitalize;
+}
+.slider p {
+	margin: 4% 0 6%;
+	font-family: Roboto-Regular;
+	font-size: 16px;
+	font-weight: 400;
+	color: #fff;
+	line-height: 27px;
+	word-spacing: 1px;
+}
+.slider button {
+	border-radius: 10px;
+	border: none;
+	width: 40%;
+	padding: 1% 0;
+	background-color: rgba(0, 0, 0, 0.7);
+	color: #fff;
+}
+.car_button {
+	width: 6%;
+	top: 90%;
+	font-family: Roboto-Regular;
+	font-size: 16px;
+	font-weight: 400;
+	color: #333333 !important;
+	text-transform: uppercase;
+}
+.car_button:hover {
+	color: #8e8e8e !important;
+}
+.button_prev {
+	left: -2px;
+}
+.button_next {
+	left: 61px;
+}
+/* --===== Banner ends =====-- */

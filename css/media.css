@@ -1,0 +1,224 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* --===== Header starts =====-- */
+    header .logo_sec .logo_text {
+        font-size: 20px;
+    }
+    header .nav_tog:focus{
+        box-shadow: none;
+    }
+    header .nav_tog span{
+        width: 21px;
+    }
+    header .menu_sec{
+        text-align: right;
+    }
+    header .menu_sec .menu_ul{
+        margin-bottom: 0 !important;
+    }
+    header .menu_sec li{
+        margin: 4px 0;
+    }
+    header .menu_sec a {
+        font-size: 15px;
+    }
+    header .search{
+        margin-top: 4px;
+    }
+    header .custom_btn {
+        margin-left: 0;
+    }
+    header .d_menu {
+        top: 60%;
+    }
+    header .d_menu[data-bs-popper] {
+        width: 278px;
+        left: -4px;
+    }
+    /* --===== Header ends =====-- */
+
+    /* --===== Banner starts =====-- */
+    .banner{
+        min-height: 63vh;
+        text-align: center;
+    }
+    .banner .car_inner{
+        height: 300px;
+    }
+    .banner .car_item {
+        height: 277px;
+    }
+    .banner .slider {
+        padding: 0;
+    }
+    .slider h1 {
+        font-size: 24px;
+    }
+    .slider p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .banner .car_item {
+        height: 233px;
+    }
+    .button_prev {
+        left: 34%;
+    }
+    .button_next {
+        left: 60%;;
+    }
+    .car_button{
+        font-size: 14px;
+    }
+    /* --===== Banner ends =====-- */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* --===== Header starts =====-- */
+    header .nav_tog:focus{
+        box-shadow: none;
+    }
+    header .menu_sec{
+        text-align: right;
+    }
+    header .menu_sec .menu_ul{
+        margin-bottom: 0 !important;
+    }
+    header .menu_sec li{
+        margin: 4px 0;
+    }
+    header .search{
+        margin-top: 4px;
+    }
+    header .custom_btn {
+        margin-left: 0;
+    }
+    header .d_menu {
+        top: 60%;
+    }
+    header .d_menu[data-bs-popper] {
+        left: 194px;
+    }
+    /* --===== Header ends =====-- */
+
+    /* --===== Banner starts =====-- */
+    .banner{
+        min-height: 63vh;
+    }
+    .banner .car_item {
+        height: 275px;
+    }
+    .banner .slider {
+        padding: 0;
+    }
+    .slider h1 {
+        font-size: 32px;
+    }
+    .button_prev {
+        left: 5px;
+    }
+    .button_next {
+        left: 60px;;
+    }
+    /* --===== Banner ends =====-- */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* --===== Header starts =====-- */
+    header .nav_tog:focus{
+        box-shadow: none;
+    }
+    header .menu_sec{
+        text-align: right;
+    }
+    header .menu_sec .menu_ul{
+        margin-bottom: 0 !important;
+    }
+    header .menu_sec li{
+        margin: 4px 0;
+    }
+    header .search{
+        margin-top: 4px;
+    }
+    header .custom_btn {
+        margin-left: 0;
+    }
+    header .d_menu {
+        top: 60%;
+    }
+    header .d_menu[data-bs-popper] {
+        left: 374px;
+    }
+    /* --===== Header ends =====-- */
+
+    /* --===== Banner starts =====-- */
+    .banner .car_item {
+        height: 468px;
+    }
+    .banner .slider {
+        padding: 9% 0% 13% 0;
+    }
+    .slider h1 {
+        font-size: 57px;
+    }
+    .button_prev {
+        left: 0;
+    }
+    .button_next {
+        left: 65px;
+    }
+    /* --===== Banner ends =====-- */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* --===== Header starts =====-- */
+    
+    /* --===== Header ends =====-- */
+
+    /* --===== Banner starts =====-- */
+    .banner .car_item {
+        height: 494px;
+    }
+    .banner .slider {
+        padding: 9% 0% 13% 0;
+    }
+    .slider h1 {
+        font-size: 57px;
+    }
+    .button_prev {
+        left: 0;
+    }
+    .button_next {
+        left: 65px;
+    }
+    /* --===== Banner ends =====-- */
+}
+
+/* Extra Large devices (Extra Large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    /* --===== Header starts =====-- */
+    
+    /* --===== Header ends =====-- */
+
+    /* --===== Banner starts =====-- */
+    .banner .car_item {
+        height: 483px;
+    }
+    /* --===== Banner ends =====-- */
+}
+
+/* Extra Extra large devices (Extra Extra large desktops, 1200px and up) */
+@media (min-width: 1400px) {
+    /* --===== Header starts =====-- */
+    
+    /* --===== Header ends =====-- */
+
+    /* --===== Banner starts =====-- */
+    .banner .car_item {
+        height: 483px;
+    }
+    /* --===== Banner ends =====-- */
+}
