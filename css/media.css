@@ -1,7 +1,7 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     /* --===== Header starts =====-- */
-    header .logo_sec .logo_text {
+    /* header .logo_sec .logo_text {
         font-size: 20px;
     }
     header .nav_tog:focus{
@@ -34,11 +34,11 @@
     header .d_menu[data-bs-popper] {
         width: 278px;
         left: -4px;
-    }
+    } */
     /* --===== Header ends =====-- */
 
     /* --===== Banner starts =====-- */
-    .banner{
+    /* .banner{
         min-height: 63vh;
         text-align: center;
     }
@@ -69,8 +69,127 @@
     }
     .car_button{
         font-size: 14px;
-    }
+    } */
     /* --===== Banner ends =====-- */
+
+    /* ===== Service starts ===== */
+    /* .s_header h1{
+        font-size: 24px;
+    }
+    .s_pra {
+        margin: 20px 0 52px;
+        font-size: 15px;
+    }
+    .single_service p{
+        font-size: 15px;
+    } */
+    /* ===== Service ends ===== */
+
+    /* ===== About us starts ===== */
+    /* .about{
+        padding: 0 0 30px;
+    }
+    .about_img{
+        padding: 0 10px !important;
+        text-align: center;
+    }
+    .about_text{
+        margin-top: 25px;
+        text-align: center;
+    }
+    .s_pra1 {
+        margin: 14px 0;
+    }
+    .s_pra2 {
+        margin: 23px 0;
+    }
+    .about_text a{
+        width: 52%;
+        height: 39.59px;
+        margin: 0 auto;
+        padding: 0;
+        line-height: 39.59px;
+    } */
+    /* ===== About us ends ===== */
+
+    /* ===== Why choose starts ===== */
+    /* .c_2nd {
+        margin-top: 15px;
+    }
+    .c_single {
+        text-align: center;
+    }
+    .c_head h2{
+        margin-bottom: 0;
+        line-height: 48px;
+    } */
+    /* ===== Why choose ends ===== */
+
+    /* ===== teammate starts ===== */
+    /* .row_two {
+        margin: 30px 0 0;
+    }
+    .single_man{
+        margin-top: 10px;
+        padding: 0 5px;
+    }
+    .t_text {
+        padding: 15px 6px 14px 6px;
+        text-align: center;
+    }
+    .t_text h2 {
+        font-size: 17px;
+    }
+    .t_text p {
+        margin-top: 5px;
+        font-size: 15px;
+    } */
+    /* ===== teammate ends ===== */
+
+    /* ===== Pricing starts ===== */
+    /* .price_sec .p_row_two {
+        padding: 50px 0;
+    }
+    .pricing_sec{
+        margin: 29px auto;
+        width: 80%;
+        display: inline;
+    }
+    .p_descrpt{
+        width: 100%;
+    } */
+    /* ===== Pricing ends ===== */
+
+    /* ===== Nipro Ads starts ===== */
+    /* .ads h4{
+        text-align: center;
+        line-height: 27px;
+    }
+    .ads a {
+        margin-top: 10px;
+        width: 100%;
+        height: 44px;
+    } */
+    /* ===== Nipro Ads ends ===== */
+
+    /* ===== Footer start ===== */
+    /* footer{
+        margin-top: 68px;
+    }
+    footer .f_up {
+        padding: 0 0 68px;
+    }
+    footer .social_icon ul{
+        padding: 0 42px ;
+    }
+    footer .social_icon li{
+        margin: 0 !important;
+        margin-top: 10px !important;
+    }
+    footer .f_low p {
+        margin-bottom: 24px !important;
+    } */
+    /* ===== Footer end ===== */
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -122,6 +241,94 @@
         left: 60px;;
     }
     /* --===== Banner ends =====-- */
+
+    /* ===== About us starts ===== */
+    .about_img{
+        padding: 0;
+        text-align: center;
+    }
+    .about_text{
+        margin-top: 25px;
+        text-align: center;
+    }
+    .s_pra1 {
+        margin: 14px 0;
+    }
+    .s_pra2 {
+        margin: 23px 0;
+    }
+    .about_text a{
+        margin: 0 auto;
+    }
+    /* ===== About us ends ===== */
+
+    /* ===== Why choose starts ===== */
+    .c_2nd {
+        margin-top: 30px;
+    }
+    .c_single i {
+        font-size: 40px;
+    }
+    .c_head{
+        padding: 0 0 0 26px;
+    }
+    .c_single h2 {
+        font-size: 16px;
+    }
+    /* ===== Why choose ends ===== */
+
+    /* ===== teammate starts ===== */
+    .t_mate .container{
+        padding: 0;
+    }
+    .row_two {
+        margin: 30px 0 0;
+    }
+    .single_man{
+        margin-top: 24px;
+    }
+    .t_text {
+        padding: 15px 0 14px 0;
+        text-align: center;
+    }
+    .t_text h2 {
+        font-size: 17px;
+    }
+    .t_text p {
+        margin-top: 5px;
+    }
+    /* ===== teammate ends ===== */
+
+    /* ===== Pricing starts ===== */
+    .pricing_sec{
+        margin-bottom: 25px;
+    }
+    .price_sec .p_row_two {
+        padding: 60px 0;
+    }
+    /* ===== Pricing ends ===== */
+
+    /* ===== Nipro Ads starts ===== */
+    .ads h4{
+        line-height: 41px;
+    }
+    .ads a {
+        width: 100%;
+        height: 44px;
+    }
+    /* ===== Nipro Ads ends ===== */
+
+    /* ===== Footer start ===== */
+    footer{
+        margin-top: 68px;
+    }
+    footer .f_up {
+        padding: 0 0 68px;
+    }
+    footer .f_low p {
+        margin-bottom: 24px !important;
+    }
+    /* ===== Footer end ===== */
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -170,6 +377,84 @@
         left: 65px;
     }
     /* --===== Banner ends =====-- */
+
+    /* ===== About us starts ===== */
+    .about_img{
+        line-height: 466px;
+    }
+    .about_img img{
+        margin-top: 0;
+    }
+    .about_text{
+        padding: 0 0 0 21px !important;
+    }
+    .s_pra1{
+        margin: 16px 0;
+    }
+    .s_pra2{
+        margin: 16px 0;
+    }
+    .about_text a{
+        padding: 0;
+        line-height: 55.91px;
+    }
+    /* ===== About us ends ===== */
+
+    /* ===== Why choose starts ===== */
+    .c_2nd {
+        margin-top: 30px;
+    }
+    .c_single i {
+        font-size: 40px;
+    }
+    .c_head{
+        padding: 0 0 0 26px;
+    }
+    .c_single h2 {
+        font-size: 16px;
+    }
+    /* ===== Why choose ends ===== */
+
+    /* ===== teammate starts ===== */
+    .t_mate .container{
+        padding: 0;
+    }
+    .t_text {
+        padding: 15px 0 14px 0;
+        text-align: center;
+    }
+    .t_text h2 {
+        font-size: 17px;
+    }
+    .t_text p {
+        margin-top: 5px;
+    }
+    /* ===== teammate ends ===== */
+
+    /* ===== Pricing starts ===== */
+    .pricing_sec{
+        margin-bottom: 29px;
+    }
+    .price_sec .p_row_two {
+        padding: 60px 0;
+    }
+    /* ===== Pricing ends ===== */
+
+    /* ===== Nipro Ads starts ===== */
+    .ads h4{
+        line-height: 41px;
+    }
+    .ads a {
+        width: 43%;
+        height: 43px;
+    }
+    /* ===== Nipro Ads ends ===== */
+
+    /* ===== Footer start ===== */
+    footer .f_low p {
+        margin-bottom: 24px !important;
+    }
+    /* ===== Footer end ===== */
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -195,6 +480,34 @@
         left: 65px;
     }
     /* --===== Banner ends =====-- */
+
+    /* ===== About us starts ===== */
+    .about_img{
+        line-height: 406px;
+    }
+    .about_img img{
+        margin-top: 0;
+    }
+    /* ===== About us ends ===== */
+
+    /* ===== Why choose starts ===== */
+    .c_2nd {
+        margin-top: 20px;
+    }
+    /* ===== Why choose ends ===== */
+
+    /* ===== teammate starts ===== */
+    .t_text {
+        padding: 15px 0 14px 8px;
+    }
+    .t_text h2 {
+        font-size: 17px;
+    }
+    .t_text p {
+        margin-top: 5px;
+    }
+    /* ===== teammate ends ===== */
+
 }
 
 /* Extra Large devices (Extra Large desktops, 1200px and up) */
@@ -208,6 +521,12 @@
         height: 483px;
     }
     /* --===== Banner ends =====-- */
+
+    /* ===== teammate starts ===== */
+    .t_mate .container{
+        padding: 0;
+    }
+    /* ===== teammate ends ===== */
 }
 
 /* Extra Extra large devices (Extra Extra large desktops, 1200px and up) */
